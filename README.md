@@ -1,48 +1,48 @@
-# DayOne — Ton objectif, ton compte à rebours.
+# DayOne — Your goal, your countdown.
 
-Choisis ta propre date limite, reste focus avec le Pomodoro et avance chaque jour avec les bons liens.
-
----
-
-## Contexte & Problème résolu
-
-Quand je préparais mon bac, je cherchais constamment combien de jours il me restait sans jamais trouver un outil simple et dédié. J'ai créé DayOne pour répondre à ce besoin — puis j'ai réalisé que le problème était universel : un exam, une deadline, un projet personnel. DayOne s'adapte à n'importe quel objectif.
+Set your own deadline, stay focused with the Pomodoro timer, and move forward every day.
 
 ---
 
-## Fonctionnalités
+## Context & Problem solved
 
-**Compte à rebours personnalisé**
-Date choisie par l'utilisateur et sauvegardée dans le navigateur via localStorage. Fonctionne pour n'importe quelle deadline.
+When I was preparing for my exams, I kept wondering how many days I had left — without ever finding a simple, dedicated tool. I built DayOne to solve that. Then I realized the problem was universal: an exam, a work deadline, a personal project. DayOne adapts to any goal.
 
-**Minuteur Pomodoro**
-Mode Travail (25min), Pause courte (5min), Pause longue (15min). Anneau de progression visuel, transitions automatiques entre sessions, compteur de sessions et de temps de travail total.
+---
 
-**Conseils — Rester concentré et discipliné**
-Quatre principes concrets : définir un objectif clair par session, travailler par blocs avec de vraies pauses, éliminer les distractions, et privilégier la constance sur la perfection.
+## Features
+
+**Custom countdown**
+User-defined deadline, saved in the browser via localStorage. Works for any goal, not just exams.
+
+**Pomodoro timer**
+Work (25min), Short break (5min), Long break (15min). Visual progress ring, automatic session transitions, session counter and total focus time tracker.
+
+**Focus & discipline tips**
+Four actionable principles: set one clear goal per session, work in blocks with real breaks, eliminate distractions, and choose consistency over perfection.
 
 **PWA — Progressive Web App**
-Installable sur mobile et desktop. Fonctionne hors ligne — le countdown marche sans connexion internet.
+Installable on mobile and desktop. Works fully offline — the countdown runs without an internet connection.
 
 ---
 
-## Stack technique
+## Tech stack
 
-| Côté | Technologies |
+| Side | Technologies |
 |------|-------------|
 | Frontend | React |
 | Styles | CSS |
-| Persistance | localStorage |
+| Persistence | localStorage |
 | PWA | vite-plugin-pwa |
 
 ---
 
-## Lancer le projet en local
+## Run locally
 
-Prérequis : Node.js >= 16
+Requirements: Node.js >= 16
 
 ```bash
-git clone https://github.com/eabxrry/dayone.git
+git clone https://github.com/ton-username/dayone.git
 cd dayone
 npm install
 npm run dev
@@ -50,7 +50,7 @@ npm run dev
 
 ---
 
-## Structure du projet
+## Project structure
 
 ```
 dayone/
@@ -67,16 +67,17 @@ dayone/
 
 ---
 
-## Ce que j'ai appris
+## What I learned
 
-- Manipulation du temps en JavaScript (Date, intervals, useEffect)
-- Persistance de données côté client avec localStorage
-- Gestion d'état local avec useState et useEffect
-- Implémentation d'un minuteur Pomodoro complet en React
-- Configuration d'une PWA avec vite-plugin-pwa et service worker
+- Time manipulation in JavaScript (Date, intervals, useEffect)
+- Client-side data persistence with localStorage
+- Local state management with useState and useEffect
+- Building a full Pomodoro timer in React
+- PWA configuration with vite-plugin-pwa and service worker
+- Writing unit tests with countdown.test.js
 
 ---
 
-## Auteur
+## Author
 
-Projet personnel né d'un besoin réel, étendu pour servir n'importe quel objectif avec une deadline.
+A personal project born from a real need, extended to serve any goal with a deadline.
