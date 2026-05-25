@@ -42,7 +42,7 @@ Installable on mobile and desktop. Works fully offline — the countdown runs wi
 Requirements: Node.js >= 16
 
 ```bash
-git clone https://github.com/ton-username/dayone.git
+git clone https://github.com/eabxrry/dayone.git
 cd dayone
 npm install
 npm run dev
